@@ -16,18 +16,47 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  position: relative;
+  overflow-x: hidden;
 }
+
+.ellipse-one {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: -106px;
+  top: 160px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+.ellipse-two {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 339px;
+  top: 495px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+.border-bottom {
+  border-bottom: 2px solid #fff;
+}
+
+/* style the head of the portfolio */
 
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5em 1em;
-  height: 20%;
-  font-family: "Roboto";
-  color: white;
+  height: 17%;
   width: 100%;
   top: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  backdrop-filter: blur(5px);
 }
 
 .nav-item {
@@ -75,4 +104,39 @@ body {
 .dan {
   font-weight: 500;
   letter-spacing: 4px;
+}
+
+/* style the body of the portfolio */
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  backdrop-filter: blur(5px);
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 65%;
+}
+
+.item1 {
+  color: rgb(129, 127, 248);
+}
+
+.item2 {
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: rgb(200, 200, 212);
 }
