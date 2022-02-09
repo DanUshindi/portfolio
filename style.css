@@ -15,7 +15,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 100vh;
   position: relative;
   overflow-x: hidden;
 }
@@ -41,7 +40,7 @@ body {
 }
 
 .border-bottom {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid rgb(81, 80, 104);
 }
 
 /* style the head of the portfolio */
@@ -101,9 +100,13 @@ body {
   bottom: 10px;
 }
 
-.dan {
+.link {
   font-weight: 500;
   letter-spacing: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 0 10px;
 }
 
 /* style the body of the portfolio */
@@ -125,18 +128,25 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 65%;
+  height: 90%;
 }
 
 .item1 {
   color: rgb(129, 127, 248);
+  padding: 17px 0;
+  font-size: 2em;
+  margin-top: 200px;
 }
 
 .item2 {
   color: white;
+  padding: 30px 4px;
+  margin-bottom: 30px;
 }
 
-p {
+.item3 {
   text-align: center;
   color: rgb(200, 200, 212);
+  font-size: 1.3em;
+  padding: 20px 0;
 }
