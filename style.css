@@ -150,3 +150,15 @@ body {
   font-size: 1.3em;
   padding: 20px 0;
 }
+
+@media (max-width: 250px) {
+  body {
+    background-color: #191765;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    position: relative;
+    overflow-x: hidden;
+  }
+}
