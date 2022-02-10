@@ -1,11 +1,11 @@
-let hamburger=document.querySelector(".hamburger");
-let menu=document.querySelector(".nav-item")
+const hamburger = document.querySelector(".hamburger");
+const header = document.querySelector(".header");
+const navigation = document.querySelector('.nav-bar')
 
-hamburger.addEventListener("click",()=>{
-    hamburger.classList.toggle("active")
-    menu.classList.toggle("active")
+hamburger.addEventListener("click",() => {
+  document.body.classList.toggle("nav-open");
 })
 
-menu.addEventListener("mouseup",() => {
-    menu.classList.remove("active")
+navigation.addEventListener("mouseup",() => {
+  document.body.classList.remove("nav-open");
 });

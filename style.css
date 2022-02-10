@@ -7,6 +7,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
   width: 100vw;
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .ellipse-one {
@@ -45,12 +47,12 @@ body {
 
 /* style the head of the portfolio */
 
-.nav-bar {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5em 1em;
-  height: 17%;
+  padding: 1em 2em;
+  height: 5em;
   width: 100%;
   top: 0;
   font-family: "Roboto", sans-serif;
@@ -58,7 +60,7 @@ body {
   backdrop-filter: blur(5px);
 }
 
-.nav-item {
+.nav-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -82,20 +84,26 @@ body {
   height: 90%;
 }
 
-/* After toggling  nav-item display like that */
-.nav-item.active {
-  display: block;
+/* After toggling  nav-bar display like that */
+.nav-open .nav-bar {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   opacity: 1;
   z-index: 10;
   color: white;
-}
-
-.border-bottom.active {
-  display: none;
+  backdrop-filter: blur(20px);
+ 
+  text-decoration: none;
 }
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 .bars,
@@ -147,11 +155,15 @@ a {
   backdrop-filter: blur(5px);
 }
 
+.nav-open .main {
+  display: none;
+}
+
 .item1 {
   color: rgb(129, 127, 248);
   padding: 17px 0;
   font-size: 2em;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .item2 {
@@ -167,20 +179,20 @@ a {
   padding: 20px 0;
 }
 
-.active .bars::before {
+.nav-open .bars::before {
   display: none;
 }
 
-.active .bars {
+.nav-open .bars {
   transform: rotate(45deg);
 }
 
-.active .bars::after {
+.nav-open .bars::after {
   transform: rotate(45deg) rotate(0.623turn) translate(0.59rem);
 }
 
-.active .bars,
-.active .bars::after {
+.nav-open .bars,
+.nav-open .bars::after {
   transition: all 200ms ease-in-out;
 }
 
