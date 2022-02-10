@@ -43,30 +43,26 @@ body {
 
 .tools {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 100%;
-  margin-left: 36px;
-  margin-right: 36px;
-  padding: 10px 0;
+  grid-template: repeat(2, minmax(5vh, 1fr)) / repeat(2, 1fr);
+  width: 90%;
+  gap: 1em;
 }
 
 .language {
-  grid-column: 1/2;
-  height: 175px;
-  grid-row: 1/2;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 10px 0;
   color: white;
-  margin-left: 26px;
+}
+
+.sublist {
+  flex: 1;
+  line-height: 1.6;
+  font-size: 1.29em;
 }
 
 .frameworks {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  height: 214px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -74,27 +70,24 @@ body {
   color: white;
 }
 
-.tittle {
-  color: #9490ff;
+.skill-title {
+  margin: 1em 0;
+  color: rgb(129, 127, 248);
 }
 
 .skills {
-  grid-column: 1/2;
-  grid-row: 2/3;
   height: 214px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 10px 0;
   color: white;
-  margin-left: 26px;
 }
 
 .border-bottom {
   border-bottom: 2px solid rgb(81, 80, 104);
+  width: 900%;
 }
-
-/* style the head of the portfolio */
 
 .header {
   display: flex;
@@ -125,13 +118,16 @@ body {
   width: 100%;
 }
 
-/* Styling the foot part */
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.fab {
+  color: white;
 }
 
 .icon {
@@ -144,7 +140,7 @@ body {
   color: white;
 }
 
-.arrow {
+.work {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -152,27 +148,6 @@ body {
   color: rgb(162, 163, 174);
   font-weight: lighter;
   padding: 10px 0;
-}
-
-/* After toggling  nav-bar display like that */
-.nav-open .nav-bar {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 1;
-  z-index: 10;
-  color: white;
-  backdrop-filter: blur(20px);
-  text-decoration: none;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
 
 .bars,
@@ -210,8 +185,6 @@ a {
   font-size: 1.3em;
   padding: 0 10px;
 }
-
-/* style the body of the portfolio */
 
 .main {
   display: flex;
@@ -261,32 +234,9 @@ a {
   font-family: "Inter", sans-serif;
 }
 
-.nav-open .bars::before {
-  display: none;
-}
-
-.nav-open .bars {
-  transform: rotate(45deg);
-}
-
-.nav-open .bars::after {
-  transform: rotate(45deg) rotate(0.623turn) translate(0.59rem);
-}
-
-.nav-open .bars,
-.nav-open .bars::after {
-  transition: all 200ms ease-in-out;
-}
-
 .hamburger {
   border: none;
   padding: 0.5em;
   background: transparent;
   z-index: 10;
-}
-
-@media (max-width: 320px) {
-  body {
-    margin-right: 30px;
-  }
 }
