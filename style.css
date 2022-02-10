@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 *,
 *::after,
@@ -47,17 +48,19 @@ body {
   width: 100%;
   margin-left: 36px;
   margin-right: 36px;
+  padding: 10px 0;
 }
 
 .language {
   grid-column: 1/2;
-  height: 214px;
+  height: 175px;
   grid-row: 1/2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 10px 0;
   color: white;
+  margin-left: 26px;
 }
 
 .frameworks {
@@ -84,6 +87,7 @@ body {
   justify-content: space-between;
   padding: 10px 0;
   color: white;
+  margin-left: 26px;
 }
 
 .border-bottom {
@@ -105,21 +109,6 @@ body {
   backdrop-filter: blur(5px);
 }
 
-.nav-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  list-style: none;
-  background: #191765;
-  padding: 3em;
-  line-height: 2.5;
-  font-size: 1.75em;
-  display: none;
-  transition: all 300ms ease-in-out;
-}
-
 .container {
   width: 100%;
   display: flex;
@@ -134,6 +123,35 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+}
+
+/* Styling the foot part */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+  padding: 10px 0;
+  color: white;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 35%;
+  color: rgb(162, 163, 174);
+  font-weight: lighter;
+  padding: 10px 0;
 }
 
 /* After toggling  nav-bar display like that */
@@ -214,22 +232,33 @@ a {
 
 .item1 {
   color: rgb(129, 127, 248);
-  padding: 17px 0;
-  font-size: 2em;
-  margin-top: 150px;
+  padding: 15px 0;
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
 }
 
 .item2 {
   color: white;
   padding: 30px 4px;
   margin-bottom: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  font-size: 32px;
 }
 
 .item3 {
   text-align: center;
   color: rgb(200, 200, 212);
-  font-size: 1.3em;
-  padding: 20px 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  padding: 25px 0;
+  width: 327px;
+  height: 210px;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-open .bars::before {
