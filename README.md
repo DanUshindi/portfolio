@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> Description the project.
+>The project is to built our portfolio because each 
+Web Designer must have his portfolio.To describe what he did as project and who to contact him.  
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- css
+- js
 
 ## Live Demo (if available)
 
@@ -18,8 +19,11 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+-Before you have to install Git App  and if you dont have it you can download it via [https://git-scm.com/downloads]
+-After you have to create a repo in Git and clone it
+by tapping **git clone git@github.com:DanUshindi/portfolio.git**
+-Then you can create a new branch and begin to work on it
+
 
 
 To get a local copy up and running follow these simple example steps.
@@ -42,21 +46,17 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/DanUshindi)
+- Twitter: [@twitterhandle](https://twitter.com/dan_ushindi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dan-ushindi-821415215/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [https://github.com/notifications?query=reason%3Areview-requested](../../issues/).
 
 ## Show your support
 
