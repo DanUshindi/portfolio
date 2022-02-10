@@ -18,7 +18,6 @@ body {
   width: 100vw;
   position: relative;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .ellipse-one {
@@ -39,6 +38,52 @@ body {
   top: 495px;
   background: #edecff;
   filter: blur(50px);
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.language {
+  grid-column: 1/2;
+  height: 214px;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: white;
+}
+
+.frameworks {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: white;
+}
+
+.tittle {
+  color: #9490ff;
+}
+
+.skills {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: white;
 }
 
 .border-bottom {
@@ -76,12 +121,19 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   height: 90%;
+}
+
+.containner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 /* After toggling  nav-bar display like that */
@@ -145,13 +197,15 @@ a {
 
 .main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100%;
   font-family: "Roboto", sans-serif;
   backdrop-filter: blur(5px);
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .nav-open .main {
