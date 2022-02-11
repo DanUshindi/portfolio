@@ -240,3 +240,103 @@ body {
   background: transparent;
   z-index: 10;
 }
+
+/* Second partie of the project */
+
+.recent-work {
+  width: 100%;
+  margin-top: 83px;
+}
+.item4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  color: #7d73fc;
+  font-weight: 500;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  padding: 15px 0;
+}
+
+img {
+  width: 320px;
+}
+
+.project-name {
+  padding: 24px 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 44px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.about-project {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.tools-list {
+  width: 100%;
+  display: flex;
+  padding: 24px 0;
+  color: white;
+}
+
+.tools-item {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.lile {
+  flex: 2;
+  text-align: center;
+}
+
+.right-border {
+  border-right: 2px solid rgb(81, 80, 104);
+}
+
+.fnl-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.btn {
+  height: 50px;
+  width: 30%;
+  background-color: #7d73fc;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+}
