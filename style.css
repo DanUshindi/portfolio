@@ -273,12 +273,13 @@ body {
 }
 
 .image {
-  width: 100%;
   padding: 15px 0;
-}
-
-img {
-  width: 320px;
+  width: 347px;
+  height: 240px;
+  background: url("assets/images/project-one.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .project-name {
