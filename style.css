@@ -136,7 +136,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 55%;
-  padding: 10px 0;
+  padding: 15px 0;
   color: white;
 }
 
@@ -247,6 +247,7 @@ body {
   width: 100%;
   margin-top: 83px;
 }
+
 .item4 {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
@@ -268,6 +269,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 0;
 }
 
 .image {
@@ -339,4 +341,98 @@ a {
   font-size: 12px;
   line-height: 24px;
   font-weight: 500;
+  transition: all 0.7s ease;
+}
+
+.btn:hover {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
+}
+
+.btn:disabled {
+  background: #2a2b33;
+}
+
+.btn:active::before {
+  background: #5e42d7;
+}
+
+.visit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.cnct {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #5e42d7;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.note {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5ff;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.prjct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrt {
+  height: 48px;
+  width: 347px;
+  margin-bottom: 24px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #81818c;
+  border: none;
+  background: white;
+}
+
+.textarea {
+  height: 148px;
+  width: 347px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #81818c;
+  border: none;
+  background: white;
+}
+
+.faa {
+  margin-top: 40px;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mail {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
 }
