@@ -196,16 +196,12 @@
           I’d love to help with it
         </p>
         <form action="https://formspree.io/f/{form_id}" method="POST" class="prjct">
-          <label for="Name">Enter your Name</label>
-          <input class="wrt" type="text" placeholder="Enter your name">
-          <label for="Email">Enter your Mail</label>
-          <input class="wrt" type="text" placeholder="Enter your mail">
-          <textarea class="textarea" name="comment" placeholder="Enter your text"></textarea>
+          <input class="wrt" maxlength="30" type="text" placeholder="Enter your name">
+          <input class="wrt" type="Email" placeholder="Enter your mail">
+          <textarea class="textarea" maxlength="500" type="message" name="comment"
+            placeholder="Enter your text"></textarea>
           <button class="btn" disabled type="submit">Submit</button>
         </form>
-        <!-- <div class="fnl-btn faa">
-          <button class="btn" disabled>See project</button>
-        </div> -->
       </section>
       <section class="final">
         <ul class="icon">
