@@ -442,3 +442,37 @@ a {
   text-align: center;
 }
 
+/* The desktop design */
+@media ( min-width:650px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  .nav-item {
+    color: white;
+    padding: 0 32px;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .fab {
+    color: white;
+  }
+}
