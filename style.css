@@ -122,12 +122,17 @@ body {
   width: 100%;
 }
 
+.work1 {
+  display: none;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  border-bottom: 2px solid rgb(81, 80, 104);
 }
 
 .fab {
@@ -518,6 +523,7 @@ a {
     justify-content: flex-start;
     gap: 20px;
     align-items: flex-start;
+    margin-top: 230px;
   }
 
   .recent {
@@ -535,6 +541,11 @@ a {
     align-items: center;
     width: 90%;
     padding: 90px 0;
+  }
+
+  .first-project {
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .project-description {
@@ -601,7 +612,12 @@ a {
 
   .border-bottom {
     border-bottom: 2px solid rgb(81, 80, 104);
-    width: 85%;
+    width: 50%;
   }
+
+.footer {
+  width: 90%;
+  border-bottom: 2px solid rgb(81, 80, 104);
+}
   
 }
