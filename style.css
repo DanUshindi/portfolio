@@ -250,18 +250,19 @@ body {
 .recent-work {
   width: 100%;
   margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
 }
 
-.item4 {
+.recent {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   line-height: 52px;
   color: #7d73fc;
   font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items:flex-start;
+
 }
 
 .project {
@@ -508,15 +509,15 @@ a {
     width: 30%;
   }
 
-  .item4 {
+  .recent-work {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 20px;
     align-items: flex-start;
-    width: 90%;
   }
 
-  .recent-work {
+  .recent {
     color: #9390ff;
     font-family: "Roboto" ,sans-serif;
     font-size: 64px;
