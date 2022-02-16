@@ -545,4 +545,8 @@ a {
     width: 50%;
     height: 450px;
   }
+  .note {
+    width: 60%;
+    align-self: center;
+  }
 }
