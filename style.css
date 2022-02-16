@@ -405,7 +405,6 @@ a {
 
 .wrt {
   height: 48px;
-  width: 347px;
   margin-bottom: 24px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -418,7 +417,6 @@ a {
 
 .textarea {
   height: 148px;
-  width: 347px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
@@ -594,5 +592,21 @@ a {
 
   .icon-item {
     padding: 0 10px;
+  }
+
+  .btn1 {
+    align-self: center;
+    height: 50px;
+    width: 106px;
+    background-color: #7d73fc;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    transition: all 0.7s ease;
+    margin-top: 17px;
   }
 }
