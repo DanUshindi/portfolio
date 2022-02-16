@@ -522,4 +522,27 @@ a {
     font-weight: 700;
     line-height: 114px;
   }
+
+  .child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 90px 0;
+  }
+
+  .project-description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+  }
+
+  .image {
+    width: 50%;
+    height: 450px;
+  }
 }
