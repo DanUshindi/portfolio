@@ -653,5 +653,49 @@ a {
   width: 90%;
   margin-top: 100px;
 }
+
+.ellipse-three {
+position: absolute;
+width: 57.53px;
+height: 700.92px;
+left: -102px;
+top: 1479.12px;
+background: #EDECFF;
+filter: blur(50px);
+transform: rotate(-36.38deg);
+}
+
+.ellipse-four {
+position: absolute;
+width: 108px;
+height: 402px;
+left: 1513.28px;
+top: 2257.74px;
+background: #EDECFF;
+filter: blur(50px);
+transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+
+}
+
+.ellipse-five {
+position: absolute;
+width: 308px;
+height: 155px;
+left: -21px;
+top: 2848px;
+background: #EDECFF;
+filter: blur(50px);
+}
+
+.ellipse-six {
+position: absolute;
+width: 106.19px;
+height: 916.38px;
+left: 1090.3px;
+top: 2934px;
+background: #EDECFF;
+filter: blur(50px);
+transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+}
   
 }
