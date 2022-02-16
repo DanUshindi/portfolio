@@ -549,4 +549,19 @@ a {
     width: 60%;
     align-self: center;
   }
+
+  .wrt {
+    width: 680px;
+  }
+
+  .prjct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .textarea {
+    width: 680px;
+  }
 }
