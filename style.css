@@ -382,7 +382,7 @@ a {
   padding: 10px 0;
 }
 
-.cnct {
+.cnct1 {
   font-family: "Roboto", sans-serif;
   font-size: 32px;
   line-height: 44px;
@@ -391,6 +391,10 @@ a {
   text-align: center;
   margin-top: 120px;
   margin-bottom: 24px;
+}
+
+.cnct2 {
+  display: none;
 }
 
 .note {
@@ -696,6 +700,22 @@ top: 2934px;
 background: #EDECFF;
 filter: blur(50px);
 transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+}
+
+.cnct2 {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #5e42d7;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.cnct1 {
+  display: none;
 }
   
 }
