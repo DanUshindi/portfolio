@@ -341,7 +341,7 @@ a {
 
 .btn {
   height: 50px;
-  width: 30%;
+  width: 106px;
   background-color: #7d73fc;
   border: none;
   border-radius: 0.5em;
@@ -555,6 +555,10 @@ a {
     width: 680px;
   }
 
+  .textarea  {
+    width: 680px;
+  }
+
   .prjct {
     display: flex;
     flex-direction: column;
@@ -562,7 +566,7 @@ a {
     align-items: center;
   }
 
-  .textarea {
-    width: 680px;
+  .btn {
+    width: 160px;
   }
 }
