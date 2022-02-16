@@ -351,6 +351,7 @@ a {
   line-height: 24px;
   font-weight: 500;
   transition: all 0.7s ease;
+  margin-top: 17px;
 }
 
 .btn:hover {
