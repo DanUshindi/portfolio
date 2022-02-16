@@ -258,6 +258,10 @@ body {
   line-height: 52px;
   color: #7d73fc;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
 }
 
 .project {
@@ -501,5 +505,21 @@ a {
 
   .icon{
     width: 30%;
+  }
+
+  .item4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  .recent-work {
+    color: #9390ff;
+    font-family: "Roboto" ,sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 114px;
   }
 }
