@@ -587,7 +587,7 @@ a {
     height: 450px;
   }
   .note {
-    width: 60%;
+    width: 700px;
     align-self: center;
   }
 
@@ -632,6 +632,7 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
   }
 
   .icn {
@@ -640,6 +641,12 @@ a {
 
   .icon-item {
     padding: 0;
+  }
+
+  .visit {
+    border-bottom:2px solid #3A3837;
+    width: 1000%;
+
   }
 
   .border-bottom {
