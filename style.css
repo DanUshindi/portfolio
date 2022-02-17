@@ -717,5 +717,9 @@ transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
 .cnct1 {
   display: none;
 }
+
+.item3 {
+  width:100%;
+}
   
 }
