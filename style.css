@@ -469,7 +469,7 @@ a {
   text-align: center;
 }
 
-/* The desktop design */
+/* The tablet design */
 @media (min-width: 600px) {
   .hamburger {
     display: none;
@@ -692,6 +692,7 @@ a {
   }
 }
 
+/* The laptop design */
 @media (min-width: 992px) {
   .child {
     display: flex;
