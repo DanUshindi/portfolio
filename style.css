@@ -459,7 +459,7 @@ a {
 }
 
 /* The desktop design */
-@media (min-width: 650px) {
+@media (min-width: 650px) and  (max-width: 1100px) {
   .hamburger {
     display: none;
   }
