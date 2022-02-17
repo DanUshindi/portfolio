@@ -615,10 +615,10 @@ a {
   }
 
   .final {
-    width: 55%;
+    width: 45%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -632,7 +632,6 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
   }
 
   .icn {
@@ -640,7 +639,7 @@ a {
   }
 
   .icon-item {
-    padding: 0 10px;
+    padding: 0;
   }
 
   .border-bottom {
@@ -727,6 +726,11 @@ transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
   
   .header {
-    padding: 1em 3em;
+    padding: 1em 4em;
+  }
+
+  .btn:disabled {
+    background: #9390ff;
+    ;
   }
 }
