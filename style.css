@@ -597,6 +597,7 @@ a {
 
   .textarea  {
     width: 680px;
+    margin-bottom: 15px;
   }
 
   .prjct {
@@ -604,10 +605,13 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
   }
 
   .btn {
     width: 160px;
+    padding: 15px 0;
+    margin-top: 20px;
   }
 
   .final {
@@ -720,6 +724,9 @@ transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
 
 .item3 {
   width:100%;
-}
+  }
   
+  .header {
+    padding: 1em 3em;
+  }
 }
