@@ -210,8 +210,6 @@ body {
   animation-duration: 1.8s;
 }
 
-/* Here is my transition and animation */
-
 @keyframes rotate {
   from {
     transform: rotateX(0) scale(1);
