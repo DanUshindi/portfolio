@@ -62,6 +62,10 @@ body {
   font-size: 1.29em;
 }
 
+.nav-bar {
+  display: none;
+}
+
 .frameworks {
   display: flex;
   flex-direction: column;
@@ -86,7 +90,7 @@ body {
 
 .border-bottom {
   border-bottom: 2px solid rgb(81, 80, 104);
-  width: 900%;
+  width: 90%;
 }
 
 .header {
@@ -118,12 +122,17 @@ body {
   width: 100%;
 }
 
+.work1 {
+  display: none;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  border-bottom: 2px solid rgb(81, 80, 104);
 }
 
 .fab {
@@ -136,6 +145,16 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 55%;
+  padding: 15px 0;
+  color: white;
+}
+
+.icon1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
   padding: 15px 0;
   color: white;
 }
@@ -265,9 +284,13 @@ body {
 .recent-work {
   width: 100%;
   margin-top: 83px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.item4 {
+.recent {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   line-height: 52px;
@@ -352,7 +375,7 @@ a {
 
 .btn {
   height: 50px;
-  width: 30%;
+  width: 106px;
   background-color: #7d73fc;
   border: none;
   border-radius: 0.5em;
@@ -387,7 +410,7 @@ a {
   padding: 10px 0;
 }
 
-.cnct {
+.cnct1 {
   font-family: "Roboto", sans-serif;
   font-size: 32px;
   line-height: 44px;
@@ -396,6 +419,10 @@ a {
   text-align: center;
   margin-top: 120px;
   margin-bottom: 24px;
+}
+
+.cnct2 {
+  display: none;
 }
 
 .note {
@@ -415,7 +442,6 @@ a {
 
 .wrt {
   height: 48px;
-  width: 347px;
   margin-bottom: 24px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -428,7 +454,6 @@ a {
 
 .textarea {
   height: 148px;
-  width: 347px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
@@ -436,6 +461,10 @@ a {
   color: #81818c;
   border: none;
   background: white;
+}
+
+.frm {
+  align-self: center;
 }
 
 .faa {
@@ -447,6 +476,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 
 .mail {
@@ -456,4 +486,252 @@ a {
   font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
+}
+
+/* The tablet design */
+@media (min-width: 600px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  .nav-item {
+    color: white;
+    padding: 0 32px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .ellipse-one {
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 69px;
+    top: 237px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+
+  .ellipse-two {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 1143px;
+    top: 546px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+
+  .icon {
+    width: 30%;
+  }
+
+  .work1 {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35%;
+    color: rgb(162, 163, 174);
+    font-weight: lighter;
+    margin-right: 150px;
+  }
+
+  .work {
+    margin-left: 150px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35%;
+    color: rgb(162, 163, 174);
+    font-weight: lighter;
+  }
+
+  .recent-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 230px;
+  }
+
+  .recent {
+    color: #9390ff;
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 114px;
+  }
+
+  .project-description {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+  }
+
+  .image {
+    width: 90%;
+    height: 450px;
+  }
+
+  .note {
+    width: 700px;
+    align-self: center;
+  }
+
+  .wrt {
+    width: 680px;
+  }
+
+  .textarea {
+    width: 680px;
+    margin-bottom: 15px;
+  }
+
+  .prjct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .btn {
+    width: 160px;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+
+  .final {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mail {
+    margin: 0;
+    width: 50%;
+  }
+
+  .icon1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .icn {
+    width: 30%;
+  }
+
+  .icon-item {
+    padding: 0 10px;
+  }
+
+  .visit {
+    border-bottom: 2px solid #3a3837;
+    width: 1000%;
+  }
+
+  .border-bottom {
+    border-bottom: 2px solid rgb(81, 80, 104);
+    width: 50%;
+  }
+
+  .footer {
+    width: 90%;
+    border-bottom: 2px solid rgb(81, 80, 104);
+  }
+
+  .one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .cnct2 {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #5e42d7;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 24px;
+  }
+
+  .cnct1 {
+    display: none;
+  }
+
+  .item3 {
+    width: 100%;
+  }
+
+  .header {
+    padding: 1em 4em;
+  }
+
+  .btn:disabled {
+    background: #9390ff;
+  }
+}
+
+/* The laptop design */
+@media (min-width: 992px) {
+  .child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 90px 0;
+  }
+
+  .first-project {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project-description {
+    width: 40%;
+  }
+
+  .image {
+    width: 58%;
+  }
 }

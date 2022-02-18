@@ -18,6 +18,7 @@
 <body>
   <div class="ellipse-one"></div>
   <div class="ellipse-two"></div>
+  
   <header class="header">
     <div class="logo">
       <a href="#" class="link" target=" blank">DU</a>
@@ -26,6 +27,17 @@
     <button type="button" class="hamburger">
       <span class="bars"></span>
     </button>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-item">Portfolio</li>
+        <li class="nav-item">About</li>
+        <li class="nav-item" >Contact</li>
+        <li class="nav-item">
+          <i class="fas fa-envelope"></i>
+        </li>
+
+      </ul>
+    </nav>
   </header>
   <div class="containner">
     <main class="main">
@@ -75,41 +87,48 @@
         </ul>
       </section>
       <section class="footer border-bottom">
-        <ul class="icon">
-          <li>
-            <a href="https://github.com/DanUshindi">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/dan-ushindi-821415215/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fab fa-angellist"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/dan_ushindi">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
-        <div class="work">
-          <h3>WORK</h3>
+        <div class="one">
+          <div class="work1">
+            <h3>WORK</h3>
+          </div>
+          <ul class="icon  icn">
+            <li>
+              <a href="https://github.com/DanUshindi">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/dan-ushindi-821415215/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-angellist"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/dan_ushindi">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="work">
+            <h3>WORK</h3>
+          </div>
         </div>
         <div class="recent-work">
-          <h1 class="item4">MY RECENT <br /> WORK</h1>
+          <h4 class="recent">My recent</h4> 
+          <h4 class="recent">Work</h4>
         </div>
       </section>
       <section class="project">
-        <div class="first-project child">
+        <div class="child">
           <div class="image"></div>
-          <h1 class="project-name"> Base Apparel coming soon page </h1>
-          <p class="about-project"> A daily selection of privately
-            personalized reads; no accounts or sign-ups
+          <div class="project-description">
+            <h1 class="project-name"> Base Apparel coming soon page </h1>
+          <p class="about-project"> A daily selection of privately 
+            personalized reads; no accounts or sign-ups 
             required. has been the industry's standard
             dummy text ever since the 1500s, when an
             unknown printer took a standard dummy
@@ -131,12 +150,14 @@
           <div class="fnl-btn">
             <button type="button" class="btn" disabled>See project</button>
           </div>
+          </div>
         </div>
         <div class="first-project child">
           <div class="image"></div>
-          <h1 class="project-name">Base Apparel coming soon page</h1>
-          <p class="about-project">A daily selection of privately
-            personalized reads; no accounts or sign-ups
+          <div class="project-description">
+            <h1 class="project-name"> Base Apparel coming soon page </h1>
+          <p class="about-project"> A daily selection of privately 
+            personalized reads; no accounts or sign-ups 
             required. has been the industry's standard
             dummy text ever since the 1500s, when an
             unknown printer took a standard dummy
@@ -158,21 +179,23 @@
           <div class="fnl-btn">
             <button type="button" class="btn" disabled>See project</button>
           </div>
+          </div>
         </div>
-        <div class="first-project child">
+        <div class="child">
           <div class="image"></div>
-          <h1 class="project-name">Base Apparel coming soon page</h1>
-          <p class="about-project">A daily selection of privately
-            personalized reads; no accounts or sign-ups
+          <div class="project-description">
+            <h1 class="project-name"> Base Apparel coming soon page </h1>
+            <p class="about-project"> A daily selection of privately 
+            personalized reads; no accounts or sign-ups 
             required. has been the industry's standard
-            dummy text ever since the 1500s, when an
-            unknown printer took a standard dummy
-            text.</p>
-          <ul class="tools-list  ">
-            <li class="tools-item right-border">
+             dummy text ever since the 1500s, when an 
+             unknown printer took a standard dummy
+              text.</p>
+           <ul class="tools-list  ">
+             <li class="tools-item right-border">
               <a href="https://github.com/DanUshindi/Base/blob/main/style.css">css</a>
-            </li>
-            <li class="tools-item right-border ">
+             </li>
+             <li class="tools-item right-border ">
               <a href="https://github.com/DanUshindi/Base/blob/main/index.html">html</a>
             </li>
             <li class="lile right-border ">
@@ -184,50 +207,52 @@
           </ul>
           <div class="fnl-btn">
             <button type="button" class="btn" disabled>See project</button>
+          </div>
           </div>
         </div>
       </section>
       <section class="visit">
-        <h2 class="cnct">CONTACT US</h2>
+        <h2 class="cnct1">CONTACT US</h2>
+        <h2 class="cnct2">Let's Chat</h2>
         <p class="note">If you have an application
           you are interested in developing
           , a feature that you need built
           or a project that needs coding.
-          I’d love to help with it
+          I'd love to help with it
         </p>
         <form action="https://formspree.io/f/mgedkakg" method="POST" class="prjct">
-          <input class="wrt" maxlength="30" type="text" placeholder="Enter your name" required>
-          <input class="wrt" type="Email" placeholder="Enter your mail" required>
+          <input class="wrt" maxlength="30" type="text" placeholder=" Enter your name" required>
+          <input class="wrt" type="Email" placeholder=" Enter your mail" required>
           <textarea class="textarea" maxlength="500"  name="comment"
-            placeholder="Enter your text"></textarea>
-          <button class="btn" type="submit">Submit</button>
+            placeholder=" Enter your text"></textarea>
+          <button class="btn frm " type="submit">Send</button>
         </form>
       </section>
-      <section class="final">
-        <ul class="icon">
-          <li>
+      <footer class="final">
+        <ul class="icon1 ">
+          <li class="icon-item">
             <a href="https://github.com/DanUshindi">
               <i class="fab fa-github"></i>
             </a>
           </li>
-          <li>
+          <li class="icon-item">
             <a href="https://www.linkedin.com/in/dan-ushindi-821415215/">
               <i class="fab fa-linkedin-in"></i>
             </a>
           </li>
-          <li>
+          <li class="icon-item">
             <a href="#">
               <i class="fab fa-angellist"></i>
             </a>
           </li>
-          <li>
+          <li class="icon-item">
             <a href="https://twitter.com/dan_ushindi">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
         </ul>
         <a class="mail" href="mailto:danushindi5@gmail.com">danushindi5@gmail.com</a>
-      </section>
+      </footer>
     </main>
   </div>
 </body>
