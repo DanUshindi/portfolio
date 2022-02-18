@@ -207,7 +207,7 @@ body {
 
 .logo:hover {
   animation-name: rotate;
-  animation-duration: 1s;
+  animation-duration: 1.8s;
 }
 
 @keyframes rotate {
