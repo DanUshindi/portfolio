@@ -186,6 +186,25 @@ body {
   padding: 0 10px;
 }
 
+.logo:hover {
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+
+  100% {
+    transform: rotateX(360deg) scale(1);
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
