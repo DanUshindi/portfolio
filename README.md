@@ -14,7 +14,7 @@ Web Designer must have his portfolio.To describe what he did as project and who 
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://)
+[Live Demo Link](https://danushindi.github.io/portfolio/)
 
 
 ## Getting Started
