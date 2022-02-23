@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 *,
 *::after,
@@ -147,6 +146,7 @@ body {
   width: 55%;
   padding: 15px 0;
   color: white;
+  column-gap: 12px;
 }
 
 .icon1 {
@@ -374,10 +374,8 @@ a {
 }
 
 .btn {
-  height: 50px;
-  width: 106px;
-  background-color: #7d73fc;
-  border: none;
+  background-color: transparent;
+  border: 2px solid white;
   border-radius: 0.5em;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -389,7 +387,6 @@ a {
 }
 
 .btn:hover {
-  background: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.5);
 }
 
@@ -405,6 +402,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 2px solid black;
   width: 100%;
   padding: 10px 0;
@@ -438,6 +436,16 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+}
+
+.prjct label {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .wrt {
@@ -628,8 +636,18 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 15px 0;
+    gap: 12px;
+    width: auto;
+  }
+
+  .prjct label {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
   }
 
   .btn {
@@ -668,7 +686,7 @@ a {
 
   .visit {
     border-bottom: 2px solid #3a3837;
-    width: 1000%;
+    width: 100%;
   }
 
   .border-bottom {
