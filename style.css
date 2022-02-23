@@ -375,10 +375,10 @@ a {
 .btn {
   height: 50px;
   width: 106px;
-  background-color: #7d73fc;
+  background-color: rgba(125, 115, 252, 0.5);
   border: none;
   border-radius: 0.5em;
-  color: #191765;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 24px;
