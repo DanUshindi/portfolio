@@ -373,10 +373,8 @@ a {
 }
 
 .btn {
-  height: 50px;
-  width: 106px;
-  background-color: #3a2cfc;
-  border: none;
+  background-color: transparent;
+  border: 2px solid white;
   border-radius: 0.5em;
   color: white;
   font-family: "Roboto", sans-serif;
