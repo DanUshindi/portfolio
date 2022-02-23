@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 
 *,
 *::after,
@@ -376,7 +375,7 @@ a {
 .btn {
   height: 50px;
   width: 106px;
-  background-color: #7d73fc;
+  background-color: #191765;
   border: none;
   border-radius: 0.5em;
   color: white;
