@@ -54,6 +54,16 @@ body {
   width: 100%;
   height: 90vh;
   position: relative;
+  position: absolute;
+  z-index: 999;
+  
+}
+
+#mobile-menu-container span {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: 25px;
 }
 
 #mobile-menu-container ul {
