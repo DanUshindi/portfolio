@@ -24,9 +24,10 @@
       <a href="#" class="link" target=" blank">DU</a>
     </div>
 
-    <button type="button" class="hamburger">
+    <button type="button" class="hamburger" onclick="menuFunction()">
       <span class="bars"></span>
     </button>
+   
     <nav class="nav-bar">
       <ul class="nav-list">
         <li class="nav-item">Portfolio</li>
@@ -39,6 +40,19 @@
       </ul>
     </nav>
   </header>
+  <nav id="mobile-menu-container">
+    <span><img src="/assets/images/close-icon.svg"></span>
+    <ul class="nav-list">
+      <li class="nav-item"><p>Portfolio</p> <i class="fas fa-chevron-right"></i></li>
+      <li class="nav-item"><p>About</p>  <i class="fas fa-chevron-right"></i></li>
+      <li class="nav-item"><p>Contact</p> <i class="fas fa-chevron-right"></i></li>
+      <li class="nav-item">
+        <i class="fas fa-envelope"></i>
+      </li>
+
+    </ul>
+  </nav>
+
   <div class="containner">
     <main class="main">
       <section class="container border-bottom">
@@ -255,5 +269,6 @@
     </main>
   </div>
 </body>
+<script src="/data.js"></script>
 
 </html>
