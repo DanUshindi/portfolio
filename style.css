@@ -51,11 +51,11 @@ body {
 #mobile-menu-container {
   display: none;
   background-color: #191765;
-  width: 100vw;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
   z-index: 999;
   position: fixed;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .active-close {
