@@ -19,7 +19,7 @@
   <div class="ellipse-one"></div>
   <div class="ellipse-two"></div>
 
-  <header class="header">
+  <header class="header" id="port-folio">
     <div class="logo">
       <a href="#" class="link" target=" blank">DU</a>
     </div>
@@ -42,11 +42,12 @@
   </header>
  
   <nav id="mobile-menu-container">
-    <span class="close"><img src="/assets/images/close-icon.svg" alt="close"></span>
+    <!-- <div class="close active-close"><img src="/assets/images/close-icon.svg" alt="close"></span> -->
+      <span class="close active-close">&times;</span>
     <ul class="nav-list">
-      <li class="nav-item"  onclick="menuFunction()"><p>Portfolio</p> <i class="fas fa-chevron-right"></i></li>
-      <li class="nav-item"  onclick="menuFunction()"><p>About</p>  <i class="fas fa-chevron-right"></i></li>
-      <li class="nav-item"  onclick="menuFunction()"><p>Contact</p> <i class="fas fa-chevron-right"></i></li>
+      <li class="nav-item"  onclick="menuFunction()"> <a class="row" href="#port-folio"><p>Portfolio</p> <i class="fas fa-chevron-right"></i> </a></li>
+      <li class="nav-item"  onclick="menuFunction()"> <a class="row"  href="#aboutproject"><p>About</p>  <i class="fas fa-chevron-right"></i></a> </li>
+      <li class="nav-item"  onclick="menuFunction()"> <a class="row"  href="#aboutcontact"> <p>Contact</p> <i class="fas fa-chevron-right"></i> </a></li>
     </ul>
   </nav>
 
@@ -133,7 +134,7 @@
           <h2 class="recent">Work</h2>
         </div>
       </section>
-      <section class="project">
+      <section class="project" id="aboutproject">
         <div class="child">
           <div class="image"></div>
           <div class="project-description">
@@ -222,7 +223,7 @@
           </div>
         </div>
       </section>
-      <section class="visit">
+      <section class="visit" id="aboutcontact">
         <h2 class="cnct1">CONTACT US</h2>
         <h2 class="cnct2">Let's Chat</h2>
         <p class="note">If you have an application

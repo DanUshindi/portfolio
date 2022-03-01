@@ -58,6 +58,13 @@ body {
   z-index: 999;
 }
 
+.active-close {
+  display: none;
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
 #mobile-menu-container span {
   display: flex;
   justify-content: flex-end;
@@ -70,10 +77,13 @@ body {
   top: 50px;
   left: 90px;
   width: 60%;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 4rem;
 }
 
-#mobile-menu-container ul li {
-  list-style: none;
+.row {
+  text-decoration: none;
   color: white;
   font-family: "Roboto", sans-serif;
   padding: 10px;
@@ -87,10 +97,19 @@ body {
   font-size: 24px;
 }
 
+#mobile-menu-container ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
 .fas {
   color: #7d73fc;
   font-weight: 300;
   font-size: 16px;
+}
+
+.nav-item {
+  list-style: none;
 }
 
 .language {
@@ -395,11 +414,6 @@ body {
   flex: 1;
   text-align: center;
   color: white;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
 
 .lile {
