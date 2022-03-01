@@ -1,11 +1,14 @@
-const hamburger = document.querySelector(".hamburger");
-const header = document.querySelector(".header");
-const navigation = document.querySelector('.nav-bar');
+const links = document.getElementById('mobile-menu-container');
+const html = document.querySelector('html');
+const closeMenu = document.querySelector('.active-close');
 
-hamburger.addEventListener("click",() =>{
-  document.body.classList.toggle("nav-open");
-})
+function menuFunction() {
+  if (links.style.display === 'block') {
+    links.style.display = 'none';
+  } else {
+    links.style.display = 'block';
+    html.style.overflow = 'hidden';
+  }
+}
 
-navigation.addEventListener("mouseup",() =>{
-  document.body.classList.remove("nav-open");
-});
+closeMenu.addEventListener('click', menuFunction);
