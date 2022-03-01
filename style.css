@@ -52,7 +52,7 @@ body {
   display: none;
   background-color: #191765;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   position: absolute;
   z-index: 999;
@@ -75,8 +75,8 @@ body {
 #mobile-menu-container ul {
   position: absolute;
   top: 50px;
-  left: 90px;
-  width: 60%;
+  left: 40px;
+  width: 80%;
   text-decoration: none;
   list-style: none;
   padding-top: 4rem;
@@ -108,6 +108,30 @@ body {
   font-size: 16px;
 }
 
+.ellipse-three {
+  display: none;
+  position: absolute;
+  width: 226px;
+  height: 427px;
+  left: 42.04px;
+  top: 92px;
+  background: rgba(237, 236, 255, 0.4);
+  filter: blur(50px);
+  transform: rotate(25.09deg);
+}
+
+.ellipse-four {
+  display: none;
+  position: absolute;
+  width: 420.13px;
+  height: 244.06px;
+  left: 318.94px;
+  top: 432.54px;
+  background: rgba(237, 236, 255, 0.9);
+  filter: blur(50px);
+  transform: rotate(40.52deg);
+}
+
 .nav-item {
   list-style: none;
 }
@@ -127,6 +151,7 @@ body {
 }
 
 .nav-bar {
+  position: relative;
   display: none;
 }
 
