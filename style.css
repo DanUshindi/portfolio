@@ -55,8 +55,7 @@ body {
   height: 100%;
   z-index: 999;
   position: fixed;
-  overflow: none;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 .active-close {
