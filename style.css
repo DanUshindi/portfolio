@@ -51,11 +51,12 @@ body {
 #mobile-menu-container {
   display: none;
   background-color: #191765;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  position: absolute;
+  width: 100vw;
+  height: 100%;
   z-index: 999;
+  position: fixed;
+  overflow: none;
+  overflow-x: hidden !important;
 }
 
 .active-close {
@@ -109,11 +110,11 @@ body {
 }
 
 .ellipse-three {
-  display: none;
+  display: block;
   position: absolute;
   width: 226px;
   height: 427px;
-  left: 42.04px;
+  left: 0;
   top: 92px;
   background: rgba(237, 236, 255, 0.4);
   filter: blur(50px);
@@ -121,7 +122,7 @@ body {
 }
 
 .ellipse-four {
-  display: none;
+  display: block;
   position: absolute;
   width: 420.13px;
   height: 244.06px;
