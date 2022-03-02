@@ -595,7 +595,7 @@ body {
   justify-content: space-around;
   align-items: center;
   transform: scale(0);
-  background: rgb(38, 50, 107);
+  background-color: #191765;
 }
 
 .column {
@@ -615,14 +615,14 @@ body {
   gap: 20px;
   align-items: center;
   position: absolute;
-  border: 2px solid rgb(69, 86, 125);
+  border: 1px solid white;
   width: 90vw;
-  background: rgb(38, 50, 107, 0.9);
+  background: rgba(255, 255, 255, 0.16);
 }
 
 .pop-image {
-  width: 80%;
-  height: 80%;
+  width: 364.88px;
+  height: 250.8px;
   background: url("assets/images/project-one.png");
   background-size: cover;
   background-position: center;
@@ -748,6 +748,15 @@ ul li a {
 @media (min-width: 600px) {
   .hamburger {
     display: none;
+  }
+
+  .pop-image {
+    width: 500px;
+    height: 280px;
+    background: url("assets/images/project-one.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .pop-fnl-btn {
