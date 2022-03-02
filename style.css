@@ -464,7 +464,6 @@ body {
 }
 
 .btn {
-  background-color: transparent;
   border: none;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -474,7 +473,7 @@ body {
   transition: all 0.7s ease;
   margin-top: 17px;
   padding: 15px;
-  background-color: #7d73fc;
+  background: #7d73fc;
 }
 
 .btn:hover {
