@@ -149,6 +149,11 @@ body {
   color: white;
 }
 
+.popupimage {
+  width: 250px;
+  height: 180px;
+}
+
 .sublist {
   flex: 1;
   line-height: 1.6;
@@ -589,14 +594,7 @@ body {
 /* Style of the popup section */
 
 .popup {
-  display: none;
-  display: flex;
-  margin: 1.2rem 0;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  transform: scale(0);
-  background-color: #191765;
+  overflow: auto;
 }
 
 .column {
@@ -609,7 +607,7 @@ body {
 }
 
 .popup-box {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -645,6 +643,13 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: white;
+}
+
+.popup-overflow {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .vide {
@@ -730,12 +735,20 @@ ul li a {
   display: block;
 }
 
-.popup.active {
+.popup-active {
   transform: scale(1);
-  display: flex;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  margin: 1.2rem 0;
+  flex-direction: row;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #191765;
+  overflow: auto;
   z-index: 10;
 }
 
@@ -751,13 +764,22 @@ ul li a {
     display: none;
   }
 
+  .popupimage {
+    width: 400px;
+    height: 251px;
+  }
+
   .pop-image {
     width: 500px;
     height: 280px;
-    background: url("assets/images/project-one.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .img {
+    width: 300px;
+    height: auto;
   }
 
   .pop-fnl-btn {
@@ -1020,6 +1042,7 @@ ul li a {
     align-items: center;
     width: 90%;
     padding: 90px 0;
+    gap: 20px;
   }
 
   .first-project {
@@ -1029,9 +1052,5 @@ ul li a {
 
   .project-description {
     width: 40%;
-  }
-
-  .image {
-    width: 58%;
   }
 }
