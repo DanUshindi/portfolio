@@ -57,6 +57,7 @@ const parrent = document.querySelector('.big-container-doc');
 
 function popupShown(btn, show, popupWindow) {
   btn.addEventListener('click', () => {
+    show.scrollIntoView();
     show.classList.add('popup-active');
     parrent.style.display = 'none';
 

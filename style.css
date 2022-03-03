@@ -150,8 +150,8 @@ body {
 }
 
 .popupimage {
-  width: 250px;
-  height: 180px;
+  width: 100%;
+  height: auto;
 }
 
 .sublist {
@@ -600,18 +600,15 @@ body {
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 50%;
 }
 
 .popup-box {
-  height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  gap: 20px;
+  gap: 1em;
   align-items: center;
   position: absolute;
   border: 1px solid white;
@@ -620,12 +617,17 @@ body {
 }
 
 .pop-image {
-  width: 364.88px;
-  height: 250.8px;
+  width: 100%;
+  height: auto;
   background: url("assets/images/project-one.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.image-container-popup {
+  width: calc(100% - 2em);
+  align-self: center;
 }
 
 .pop-container {
@@ -650,6 +652,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 100%;
+  width: 100%;
 }
 
 .vide {
@@ -660,28 +664,27 @@ body {
 }
 
 .about-popup {
-  width: 60%;
+  width: 80%;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .pop-tools-list {
-  width: 60%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  margin-top: 1em;
 }
 
 .pop-fnl-btn {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 50%;
+  margin: 1.5em auto;
 }
 
 .pop-btn {
@@ -696,6 +699,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
   cursor: pointer;
+}
+
+.pop-btn + .pop-btn {
+  margin-top: 0.75em;
 }
 
 .popup-icone {
@@ -717,7 +724,7 @@ ul li a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 15px;
+  padding: 1em;
 }
 
 .popup-box .overlay {
@@ -736,19 +743,11 @@ ul li a {
 }
 
 .popup-active {
-  transform: scale(1);
-  position: fixed;
-  display: none;
-  top: 0;
-  left: 0;
-  margin: 1.2rem 0;
-  flex-direction: row;
   width: 100vw;
   height: 100vh;
-  justify-content: space-around;
-  align-items: center;
   background-color: #191765;
   overflow: auto;
+  padding: 1.5em 0;
   z-index: 10;
 }
 
@@ -762,11 +761,6 @@ ul li a {
 @media (min-width: 600px) {
   .hamburger {
     display: none;
-  }
-
-  .popupimage {
-    width: 400px;
-    height: 251px;
   }
 
   .pop-image {
