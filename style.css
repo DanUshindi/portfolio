@@ -571,6 +571,7 @@ body {
   color: #81818c;
   border: none;
   background: white;
+  padding: 5px 10px;
 }
 
 .textarea {
