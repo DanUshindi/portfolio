@@ -3,7 +3,7 @@ const form = document.querySelector('.contact-form');
 const ErrorElement = document.querySelector('.error');
 
 form.addEventListener('submit', (e) => {
-  if (email.value === email.value.toLowerCase() || ((email.value === email.value.toLowerCase()) && (email.value.charAt(0) !== (/^[0-9+#-]*$/)))) {
+  if (email.value === email.value.toLowerCase()) {
     ErrorElement.container = '';
   } else {
     e.preventDefault();
