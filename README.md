@@ -36,6 +36,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
+This website is used for refrence concerning my skills and experience as a programmer.
+
 ### Run tests
 
 ### Deployment
@@ -64,9 +66,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Micro-verse
 
 ## 📝 License
 
