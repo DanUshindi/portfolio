@@ -2,18 +2,6 @@ const links = document.getElementById('mobile-menu-container');
 const html = document.querySelector('html');
 const closeMenu = document.querySelector('.active-close');
 
-function menuFunction() {
-  if (links.style.display === 'block') {
-    links.style.display = 'none';
-    html.style.overflow = 'scroll';
-  } else {
-    links.style.display = 'block';
-    html.style.overflow = 'hidden';
-  }
-}
-
-closeMenu.addEventListener('click', menuFunction);
-
 const popupWindow = [{
   name: 1,
   title: 'Project-one',
@@ -113,3 +101,15 @@ function popupShown(btn, show, popupWindow) {
 popupShown(btn1, show1, popupWindow, 0);
 popupShown(btn2, show2, popupWindow, 1);
 popupShown(btn3, show3, popupWindow, 2);
+
+function menuFunction() {
+  if (links.style.display === 'block') {
+    links.style.display = 'none';
+    html.style.overflow = 'scroll';
+  } else {
+    links.style.display = 'block';
+    html.style.overflow = 'hidden';
+  }
+}
+
+closeMenu.addEventListener('click', menuFunction);

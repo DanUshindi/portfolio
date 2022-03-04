@@ -24,23 +24,9 @@ Web Designer must have his portfolio.To describe what he did as project and who 
 by tapping **git clone git@github.com:DanUshindi/portfolio.git**
 -Then you can create a new branch and begin to work on it
 
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+This website is used for refrence concerning my skills and experience as a programmer.
 
 ## Authors
 
@@ -64,9 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Micro-verse
 
 ## 📝 License
 
