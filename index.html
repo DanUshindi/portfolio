@@ -235,15 +235,17 @@
           or a project that needs coding.
           I'd love to help with it
         </p>
-        <form action="https://formspree.io/f/mgedkakg" method="POST" class="prjct">
+        <form action="https://formspree.io/f/mgedkakg" method="POST" class="prjct contact-form">
           <label for="fullname">Full Name</label>
           <input name="fullname" id="fullname" class="wrt" maxlength="30" type="text" placeholder=" Enter your name"
             required>
           <label for="email">Email Address</label>
-          <input name="email" id="email" class="wrt" type="Email" placeholder=" Enter your mail" required>
+          <input name="email" id="email" class="wrt email" type="email" placeholder=" Enter your mail" required>
+          <small class="error"></small>
           <label for="msg">Message</label>
           <textarea name="msg" id="msg" class="wrt" maxlength="500" placeholder=" Enter your text"></textarea>
           <button class="btn frm" type="submit">Send</button>
+          <small class="error"></small>
         </form>
       </section>
       <footer class="final">
@@ -276,5 +278,7 @@
 </div>
  
   <script src="data.js"></script>
+  <script src="/index.js"></script>
+
 </body>
 </html>

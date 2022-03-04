@@ -59,7 +59,7 @@ body {
   z-index: 999;
   position: fixed;
   overflow: hidden;
-  margin-top: -108px;
+  margin-top: -90px;
 }
 
 .active-close {
@@ -324,6 +324,24 @@ body {
   }
 }
 
+.pop-btn {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+  background: #7d73fc;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.pop-btn + .pop-btn {
+  margin-top: 0.75em;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -568,6 +586,7 @@ body {
 
 .frm {
   align-self: center;
+  width: 105px;
 }
 
 .faa {
@@ -589,6 +608,7 @@ body {
   font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
+  text-decoration: none;
 }
 
 /* Style of the popup section */
@@ -687,24 +707,6 @@ body {
   margin: 1.5em auto;
 }
 
-.pop-btn {
-  border: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1rem;
-  padding: 0.7rem 1rem;
-  background: #7d73fc;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  cursor: pointer;
-}
-
-.pop-btn + .pop-btn {
-  margin-top: 0.75em;
-}
-
 .popup-icone {
   width: 16px;
   height: 16px;
@@ -751,10 +753,21 @@ ul li a {
   z-index: 10;
 }
 
+.error {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+
 .big-container-doc.active {
   display: none;
   width: 0;
   height: 0;
+}
+
+#msg {
+  height: 100px;
 }
 
 /* The tablet design */
@@ -769,6 +782,15 @@ ul li a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .pop-btn {
+    margin: auto 4px;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .pop-btn + .pop-btn {
+    margin-top: 0;
   }
 
   .img {
@@ -1019,11 +1041,6 @@ ul li a {
 
   .btn:disabled {
     background: #9390ff;
-  }
-
-  .pop-btn {
-    margin: auto 4px;
-    padding: 0.5rem 0.8rem;
   }
 }
 
