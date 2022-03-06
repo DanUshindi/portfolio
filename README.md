@@ -20,6 +20,7 @@ Web Designer must have his portfolio.To describe what he did as project and who 
 ## Getting Started
 
 -Before you have to install Git App  and if you dont have it you can download it via [https://git-scm.com/downloads]
+
 -After you have to create a repo in Git and clone it
 by tapping **git clone git@github.com:DanUshindi/portfolio.git**
 -Then you can create a new branch and begin to work on it
@@ -57,5 +58,6 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 
 ## Contributors
-- https://github.com/misheck12
-- https://github.com/aliatayee
+
+- Misheck livingi https://github.com/misheck12
+- Ali https://github.com/aliatayee
